@@ -12,6 +12,13 @@ public class PublicaWebService {
 		System.out.println("Service rodando " + url + "?wsdl");
 		
 		Endpoint.publish(url,service);
+		
+		/*RelatorioService service = new RelatorioService();
+		String url = "http://localhost:8080/relatorioService";
+		
+		System.out.println("Service rodando " + url + "?wsdl");
+		
+		Endpoint.publish(url,service);*/
 
 	}
 
